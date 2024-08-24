@@ -50,7 +50,7 @@ export default function Component() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white font-sans relative overflow-hidden">
       <AnimatedBackground />
       <div className="relative z-10">
-        <header className="border-b border-slate-800/50 sticky top-0 z-50 bg-slate-900/95 backdrop-blur">
+        <header className=" sticky top-0 z-50 bg-slate-900/95 backdrop-blur">
           <nav className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
             <div className="flex items-center">
               <svg
@@ -148,14 +148,12 @@ export default function Component() {
                   Rapidly build modern websites
                   <br />
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-emerald-600">
-                    without ever{" "}
+                    save your{" "}
                   </span>{" "}
-                  leaving your HTML.
+                  time and money.
                 </h1>
                 <p className="mt-6 text-xl text-slate-300 max-w-3xl mx-auto">
-                  A utility-first CSS framework packed with classes like flex,
-                  pt-4, text-center and rotate-90 that can be composed to build
-                  any design, directly in your markup.
+                  This template is part of Easy UI Tmplates. I call this Easy Template 4 or Easy Boring template. It's a simple, yet effective design. Try it out and lemme know.
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
                   <Button className="bg-sky-500 hover:bg-sky-400 text-white font-semibold h-12 px-6 rounded-lg w-full sm:w-auto transition-colors">
@@ -254,32 +252,32 @@ export default function Component() {
                   </Button>
                 </div>
                 <motion.div
-                  className="hidden lg:block bg-slate-800 rounded-lg p-4 md:p-6 shadow-4xl backdrop-blur bg-transparent bg-slate-200 border-0 border-white mt-8 md:mt-0"
+                  className="hidden lg:block bg-slate-800  p-6 md:p-6 shadow-4xl backdrop-blur bg-transparent bg-slate-200  mt-8 md:mt-0"
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  <pre className="text-xs sm:text-sm bg-slate-200 overflow-x-auto border border-slate-200 ">
-                    <code className="text-black">{`<figure class="md:flex bg-slate-100 rounded-xl p-4 md:p-8 dark:bg-slate-800">
-  <img class="w-20 h-20 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
-  <div class="pt-4 md:pt-8 text-center md:text-left space-y-4">
-    <blockquote>
-      <p class="text-base md:text-lg font-medium">
-        "Tailwind CSS is the only framework that I've seen scale
-        on large teams. It's easy to customize, adapts to any design,
-        and the build size is tiny."
-      </p>
-    </blockquote>
-    <figcaption class="font-medium">
-      <div class="text-sky-500 dark:text-sky-400">
-        Sarah Dayan
-      </div>
-      <div class="text-slate-700 dark:text-slate-500">
-        Staff Engineer, Algolia
-      </div>
-    </figcaption>
-  </div>
-</figure>`}</code>
+                  <pre className="text-xs sm:text-sm bg-slate-200 overflow-x-auto border rounded-md">
+                    <code className="text-black ml-4">{`<figure class="md:flex bg-slate-100 rounded-xl p-4 md:p-8 dark:bg-slate-800">
+    <img class="w-20 h-20 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
+    <div class="pt-4 md:pt-8 text-center md:text-left space-y-4">
+      <blockquote>
+        <p class="text-base md:text-lg font-medium">
+          "Tailwind CSS is the only framework that I've seen scale
+          on large teams. It's easy to customize, adapts to any design,
+          and the build size is tiny."
+        </p>
+      </blockquote>
+      <figcaption class="font-medium">
+        <div class="text-sky-500 dark:text-sky-400">
+          Sarah Dayan
+        </div>
+        <div class="text-slate-700 dark:text-slate-500">
+          Staff Engineer, Algolia
+        </div>
+      </figcaption>
+    </div>
+  </figure>`}</code>
                   </pre>
                 </motion.div>
               </div>
@@ -363,7 +361,7 @@ export default function Component() {
 
         <footer className="bg-slate-900 border-t border-slate-800 py-12">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pl-5 ml-5 lg:pl-20 lg:ml-20">
               <div>
                 <h3 className="text-sm font-semibold text-slate-200 tracking-wider uppercase mb-4">
                   Products
@@ -489,11 +487,11 @@ export default function Component() {
                 </ul>
               </div>
             </div>
-            <div className="mt-8 border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-              <p className="text-sm text-slate-400">
-                © 2023 Tailwind Labs Inc. All rights reserved.
+            <div className="mt-8 border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center ">
+              <p className="text-sm text-slate-400 pl-0 ml-0 lg:pl-20 lg:ml-20">
+                © 2024 Easy UI. All rights reserved.
               </p>
-              <div className="flex space-x-6 mt-4 md:mt-0">
+              <div className="flex space-x-6 mt-4 md:mt-0 pr-0 mr-0 lg:pr-20 lg:mr-20">
                 <Link
                   href="#"
                   className="text-slate-400 hover:text-white transition-colors"
